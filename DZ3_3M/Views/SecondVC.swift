@@ -59,10 +59,9 @@ class SecondVC: UIViewController {
         }
         else
         {
-//            let ThirdTVC = ThirdTableViewCell()
-//            navigationController?.pushViewController(ThirdTVC, animated: true)
+           let fourthVC = FourthVC()
+           self.navigationController?.pushViewController(fourthVC, animated: true)
             
-            print("rabotaet")
         }
     }
     

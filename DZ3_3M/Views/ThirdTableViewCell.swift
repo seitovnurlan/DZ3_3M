@@ -18,6 +18,20 @@ class ThirdTableViewCell: UITableViewCell {
     
     @IBOutlet weak var titleLabel: UILabel!
     
+    @IBOutlet weak var buttonCell: UIButton!
+    
+    @IBAction func buttonClickCell(_ sender: Any) {
+    }
+    
+    
+    public func initUI(firstName: String,lastName:String, imageName: String, titleName:String) {
+        firstnameLabelCell.text = firstName
+        lastNameLabelCell.text = lastName
+        titleLabel.text = titleName
+        imageViewCell.image = UIImage(systemName: imageName)
+        buttonCell.setTitle(firstName, for: .normal)
+
+    }
     
     override func awakeFromNib() {
         super.awakeFromNib()
