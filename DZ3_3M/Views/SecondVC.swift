@@ -8,6 +8,8 @@
 import UIKit
 
 class SecondVC: UIViewController {
+    
+//    public var persons2: [Person] = []
 
     @IBOutlet weak var regionTextField: UITextField!
     
@@ -59,32 +61,32 @@ class SecondVC: UIViewController {
         }
         else
         {
-           let fourthVC = FourthVC()
+            let fourthVC = FourthVC()
            self.navigationController?.pushViewController(fourthVC, animated: true)
             
         }
     }
     
     @IBAction func noThanksButSecond(_ sender: Any) {
-    }
+        
+        dismiss(animated: true, completion: nil)
+        navigationController?.popToRootViewController(animated: true)
+}
+//    func addarray(firstName: Person, lastName: Person, yourtitle: Person, organiz: String, email: String, phone:String) {
+//         firstName = firstNameTextField.text
+//        var lname = lastNameTextField.text
+//
+//
+//        var persons2 = Person(firstName: fname, lastName: lname, organization: organiz, email: email, yourtitle: yourtitle, phone: phone, image: "")
+//        var array: [Person] = []
+//        array.append(persons2)
+//    }
     
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
     }
 
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

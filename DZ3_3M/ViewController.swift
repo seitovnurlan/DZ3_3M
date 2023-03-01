@@ -22,6 +22,11 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var greateFreeAcButtonView: UIButton!
     
+    @IBOutlet weak var view1: UIView!
+    
+    @IBOutlet weak var image1: UIImageView!
+    
+    @IBOutlet weak var image2: UIImageView!
     
     @IBAction func signInButton(_ sender: Any) {
         
@@ -55,6 +60,8 @@ class ViewController: UIViewController {
         countryTextField.layer.cornerRadius = 5
         countryTextField.layer.borderWidth = 1
         countryTextField.layer.borderColor = UIColor.blue.cgColor
+        view1.layer.cornerRadius = 5
+        image1.image = UIImage(systemName: "at")
 //        countryTextField.clipsToBounds = true
 //        countryTextField.largeContentImage = UIImage(systemName: "globe")
 //        countryTextField.leftViewMode =

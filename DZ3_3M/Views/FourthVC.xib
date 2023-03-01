@@ -32,7 +32,7 @@
                 <constraint firstItem="LqT-xt-oY3" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="N3p-ul-Lse"/>
                 <constraint firstItem="LqT-xt-oY3" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="60" id="t5h-7V-Edg"/>
             </constraints>
-            <point key="canvasLocation" x="87.786259541984734" y="19.718309859154932"/>
+            <point key="canvasLocation" x="10" y="-67"/>
         </view>
     </objects>
     <resources>

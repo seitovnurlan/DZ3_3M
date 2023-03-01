@@ -18,18 +18,17 @@ class ThirdTableViewCell: UITableViewCell {
     
     @IBOutlet weak var titleLabel: UILabel!
     
-    @IBOutlet weak var buttonCell: UIButton!
+    @IBOutlet weak var labelOrganiz: UILabel!
     
-    @IBAction func buttonClickCell(_ sender: Any) {
-    }
+
     
-    
-    public func initUI(firstName: String,lastName:String, imageName: String, titleName:String) {
+    public func initUI(firstName: String,lastName:String, imageName: String, organization:String, titleName:String) {
         firstnameLabelCell.text = firstName
         lastNameLabelCell.text = lastName
         titleLabel.text = titleName
-        imageViewCell.image = UIImage(systemName: imageName)
-        buttonCell.setTitle(firstName, for: .normal)
+        imageViewCell.image = UIImage(named: imageName)
+        labelOrganiz.text = organization
+       // buttonCell.setTitle(firstName, for: .normal)
 
     }
     

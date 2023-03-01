@@ -15,8 +15,10 @@
 		2875F0D329AD422200E7E658 /* FifthVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2875F0D129AD422200E7E658 /* FifthVC.xib */; };
 		2875F0DA29AE095C00E7E658 /* FourthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2875F0D829AE095C00E7E658 /* FourthVC.swift */; };
 		2875F0DB29AE095C00E7E658 /* FourthVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2875F0D929AE095C00E7E658 /* FourthVC.xib */; };
-		2875F15229AE5C8D00E7E658 /* 65ytViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2875F15029AE5C8D00E7E658 /* 65ytViewController.swift */; };
-		2875F15329AE5C8D00E7E658 /* 65ytViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2875F15129AE5C8D00E7E658 /* 65ytViewController.xib */; };
+		2875F15B29AEBEE600E7E658 /* ExampVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2875F15A29AEBEE600E7E658 /* ExampVC.swift */; };
+		2875F18429AECEDD00E7E658 /* SixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2875F18229AECEDD00E7E658 /* SixthViewController.swift */; };
+		2875F18529AECEDD00E7E658 /* SixthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2875F18329AECEDD00E7E658 /* SixthViewController.xib */; };
+		2875F18729AF0B4B00E7E658 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2875F18629AF0B4A00E7E658 /* Person.swift */; };
 		28F0F93329AA51B500377130 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F0F93229AA51B500377130 /* AppDelegate.swift */; };
 		28F0F93529AA51B500377130 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F0F93429AA51B500377130 /* SceneDelegate.swift */; };
 		28F0F93729AA51B500377130 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F0F93629AA51B500377130 /* ViewController.swift */; };
@@ -34,8 +36,10 @@
 		2875F0D129AD422200E7E658 /* FifthVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FifthVC.xib; sourceTree = "<group>"; };
 		2875F0D829AE095C00E7E658 /* FourthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthVC.swift; sourceTree = "<group>"; };
 		2875F0D929AE095C00E7E658 /* FourthVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FourthVC.xib; sourceTree = "<group>"; };
-		2875F15029AE5C8D00E7E658 /* 65ytViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 65ytViewController.swift; sourceTree = "<group>"; };
-		2875F15129AE5C8D00E7E658 /* 65ytViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = 65ytViewController.xib; sourceTree = "<group>"; };
+		2875F15A29AEBEE600E7E658 /* ExampVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampVC.swift; sourceTree = "<group>"; };
+		2875F18229AECEDD00E7E658 /* SixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthViewController.swift; sourceTree = "<group>"; };
+		2875F18329AECEDD00E7E658 /* SixthViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SixthViewController.xib; sourceTree = "<group>"; };
+		2875F18629AF0B4A00E7E658 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		28F0F92F29AA51B500377130 /* DZ3_3M.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DZ3_3M.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F0F93229AA51B500377130 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28F0F93429AA51B500377130 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,8 +72,9 @@
 				2875F0D129AD422200E7E658 /* FifthVC.xib */,
 				2875F0D829AE095C00E7E658 /* FourthVC.swift */,
 				2875F0D929AE095C00E7E658 /* FourthVC.xib */,
-				2875F15029AE5C8D00E7E658 /* 65ytViewController.swift */,
-				2875F15129AE5C8D00E7E658 /* 65ytViewController.xib */,
+				2875F18229AECEDD00E7E658 /* SixthViewController.swift */,
+				2875F18329AECEDD00E7E658 /* SixthViewController.xib */,
+				2875F18629AF0B4A00E7E658 /* Person.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -96,6 +101,7 @@
 				2875F0C529AD40AD00E7E658 /* Views */,
 				28F0F93229AA51B500377130 /* AppDelegate.swift */,
 				28F0F93429AA51B500377130 /* SceneDelegate.swift */,
+				2875F15A29AEBEE600E7E658 /* ExampVC.swift */,
 				28F0F93629AA51B500377130 /* ViewController.swift */,
 				28F0F93829AA51B500377130 /* Main.storyboard */,
 				28F0F93B29AA51B700377130 /* Assets.xcassets */,
@@ -169,7 +175,7 @@
 				28F0F93C29AA51B700377130 /* Assets.xcassets in Resources */,
 				2875F0D329AD422200E7E658 /* FifthVC.xib in Resources */,
 				28F0F93A29AA51B500377130 /* Main.storyboard in Resources */,
-				2875F15329AE5C8D00E7E658 /* 65ytViewController.xib in Resources */,
+				2875F18529AECEDD00E7E658 /* SixthViewController.xib in Resources */,
 				2875F0CF29AD420200E7E658 /* ThirdTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,12 +189,14 @@
 			files = (
 				28F0F93729AA51B500377130 /* ViewController.swift in Sources */,
 				2875F0CA29AD418900E7E658 /* SecondVC.swift in Sources */,
-				2875F15229AE5C8D00E7E658 /* 65ytViewController.swift in Sources */,
 				2875F0D229AD422200E7E658 /* FifthVC.swift in Sources */,
+				2875F18729AF0B4B00E7E658 /* Person.swift in Sources */,
+				2875F15B29AEBEE600E7E658 /* ExampVC.swift in Sources */,
 				28F0F93329AA51B500377130 /* AppDelegate.swift in Sources */,
 				28F0F93529AA51B500377130 /* SceneDelegate.swift in Sources */,
 				2875F0DA29AE095C00E7E658 /* FourthVC.swift in Sources */,
 				2875F0CE29AD420200E7E658 /* ThirdTableViewCell.swift in Sources */,
+				2875F18429AECEDD00E7E658 /* SixthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
