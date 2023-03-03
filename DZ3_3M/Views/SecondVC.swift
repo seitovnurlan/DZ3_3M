@@ -9,7 +9,9 @@ import UIKit
 
 class SecondVC: UIViewController {
     
-//    public var persons2: [Person] = []
+   // public var persons2: [Person] = []
+    
+    public var per = Person(firstName: "", lastName: "", organization: "", email: "", yourtitle: "", phone: "", image: "")
 
     @IBOutlet weak var regionTextField: UITextField!
     
@@ -64,6 +66,13 @@ class SecondVC: UIViewController {
             let fourthVC = FourthVC()
            self.navigationController?.pushViewController(fourthVC, animated: true)
             
+            per = Person(firstName: firstNameTextField.text!, lastName: lastNameTextField.text!, organization: organizationTextField.text!, email: emailTextField.text!, yourtitle: yourTitTextField.text!, phone: phoneTextField.text!, image: "notfoto")
+            if fourthVC.persons.isEmpty {
+                fourthVC.initData()
+            }
+            
+            fourthVC.persons.append(per)
+            
         }
     }
     
@@ -86,6 +95,7 @@ class SecondVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+    
     }
 
 

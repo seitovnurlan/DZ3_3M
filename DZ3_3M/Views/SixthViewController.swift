@@ -52,7 +52,7 @@ class SixthViewController: UIViewController {
         labelEmail.text = name5 ?? "emty"
         labelPhone.text = name6 ?? "emty"
         
-        imageViewExten.layer.cornerRadius = 80
+        imageViewExten.layer.cornerRadius = 77
         imageViewExten.layer.borderWidth = 2
         imageViewExten.layer.borderColor = UIColor.gray.cgColor
     }

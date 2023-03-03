@@ -22,7 +22,7 @@
                                     <constraint firstAttribute="height" constant="63" id="moP-Xc-F0J"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uGf-5X-2dl">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uGf-5X-2dl">
                                 <rect key="frame" x="20" y="492" width="353" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="PvH-7E-fg2"/>
@@ -68,8 +68,8 @@
                                     <constraint firstItem="mLa-mt-Q95" firstAttribute="leading" secondItem="cRg-6B-9U7" secondAttribute="leading" constant="8" id="hF3-dH-Nnd"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9l1-Gf-mAH">
-                                <rect key="frame" x="116.66666666666669" y="558" width="160" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9l1-Gf-mAH">
+                                <rect key="frame" x="20" y="558" width="353" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="HyZ-nb-HtN"/>
                                 </constraints>
@@ -85,7 +85,7 @@
                                     <action selector="forgotPasswButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hDj-wq-g8d"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HO6-BW-dtQ">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HO6-BW-dtQ">
                                 <rect key="frame" x="20" y="616" width="353" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Rej-bJ-iKJ"/>
@@ -131,7 +131,7 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="NH0-gV-7ec">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="NH0-gV-7ec">
                                 <rect key="frame" x="22" y="713" width="349" height="98"/>
                                 <string key="text">This service is for authorized use only. Use may be monitored, recorded, and audited. Access and use constitutes consent to Terms and Conditions Privacy Policy, and monitoring / recording / auditing. Unauthorized use is prohibited.</string>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -162,7 +162,9 @@
                             <constraint firstItem="9l1-Gf-mAH" firstAttribute="top" secondItem="uGf-5X-2dl" secondAttribute="bottom" constant="16" id="Rb4-wc-E7t"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wT4-z6-DoZ" secondAttribute="trailing" constant="129" id="Wbt-5c-WzO"/>
                             <constraint firstItem="ewo-l9-Agn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="73" id="Wq8-yB-q8x"/>
+                            <constraint firstItem="uGf-5X-2dl" firstAttribute="top" secondItem="cRg-6B-9U7" secondAttribute="bottom" constant="15" id="Wsr-vc-Fo0"/>
                             <constraint firstItem="t3o-2D-2Hv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="73" id="YBy-Xw-tHE"/>
+                            <constraint firstItem="9l1-Gf-mAH" firstAttribute="leading" secondItem="HO6-BW-dtQ" secondAttribute="leading" id="akL-Hs-uzK"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="NH0-gV-7ec" secondAttribute="bottom" constant="7" id="kOP-4S-7UO"/>
                             <constraint firstItem="t3o-2D-2Hv" firstAttribute="top" secondItem="ewo-l9-Agn" secondAttribute="bottom" id="le1-la-YqR"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="t3o-2D-2Hv" secondAttribute="trailing" constant="20" id="msE-5y-Srr"/>
@@ -191,6 +193,27 @@
             </objects>
             <point key="canvasLocation" x="855.72519083969462" y="3.5211267605633805"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="hmj-j4-qJo">
+            <objects>
+                <viewController id="DDy-nE-NjF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Kgj-bv-SeE">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="person" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="a4z-DD-hIW">
+                                <rect key="frame" x="75" y="177" width="115" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="VC4-Gi-iBm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MU3-h1-CDJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1678.6259541984732" y="25.35211267605634"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="Y2Y-AS-b6f">
             <objects>
@@ -214,6 +237,7 @@
         <image name="at" catalog="system" width="128" height="125"/>
         <image name="lock" catalog="system" width="125" height="128"/>
         <image name="logo" width="246" height="217"/>
+        <image name="person" catalog="system" width="128" height="121"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

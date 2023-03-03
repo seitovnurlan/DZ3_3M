@@ -20,8 +20,6 @@ class ThirdTableViewCell: UITableViewCell {
     
     @IBOutlet weak var labelOrganiz: UILabel!
     
-
-    
     public func initUI(firstName: String,lastName:String, imageName: String, organization:String, titleName:String) {
         firstnameLabelCell.text = firstName
         lastNameLabelCell.text = lastName
